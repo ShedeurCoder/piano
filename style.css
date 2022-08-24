@@ -1,0 +1,55 @@
+.w {
+    background: #FFFFFF
+}
+.b {
+    background: #191919
+}
+body {
+    background: #998235;
+    user-select: none;
+}
+.bg {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    border-radius: 20px;
+    padding-top: 50px;
+    display: grid;
+    justify-content: center;
+}
+.wk {
+    width: 40px;
+    height: 140px;
+    display: inline-block;
+    margin-inline: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bk {
+    display: inline-block;
+    height: 100px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+}
+#bck {
+    position: absolute;
+    bottom: 51.8%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+#warning {
+    display: none
+}
+@media only screen and (max-width: 641px) {
+    #warning {
+        display: block;
+        text-align: center;
+    }
+    .bg,#bck {
+        display: none
+    }
+}
